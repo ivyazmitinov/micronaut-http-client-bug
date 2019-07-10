@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: micronaut-http-client-bug
+  http:
+    client:
+      read-timeout: 2h
+      read-idle-timeout: 2h
+    services:
+      test-bug-service:
+        url: http://localhost:8080
